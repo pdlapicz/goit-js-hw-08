@@ -2,7 +2,9 @@
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --animation-duration: 250ms;
 }
-
+li {
+  list-style: none;
+}
 .gallery {
   display: grid;
   max-width: 1140px;
@@ -25,6 +27,7 @@
 }
 
 .gallery__image {
+  border-radius: 10px;
   height: 100%;
   width: 100%;
   object-fit: cover;
