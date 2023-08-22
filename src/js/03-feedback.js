@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   //zatrzymanie strony
   if (emailInput.value === '' || messageTextarea.value === '') {
-    console.log('Fill all of fields before submit!');
+    alert('Fill all of fields before submit!');
   } else {
     console.log('Form submited!', {
       email: emailInput.value,
